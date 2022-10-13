@@ -1,0 +1,63 @@
+.header__navbar {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    gap: 22%;
+    flex-wrap: wrap;
+    color: black;
+    align-items: baseline;
+    margin-top: 8px;
+    margin-right: 1%;
+    margin-left: 1%;
+    font-size: 1.3em;
+  }
+
+  
+.header__options {
+    display: flex;
+    gap: 2em;
+    text-align: center;
+    cursor: pointer;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+.header__options > h4 {
+    padding: 5px;
+    color: rgba(14, 59, 73, 0.788);
+    transition: 0.2s;
+    box-shadow: 3px 3px rgb(151, 134, 134);
+    background-color: rgb(58, 118, 230);
+    color: white;
+}
+
+
+  h1 {
+    color: black;
+  }
+
+  .header__options > h4:hover {
+    color: rgba(14, 59, 73, 0.788);
+    transition: 0.2s;
+    box-shadow: 3px 3px rgb(151, 134, 134);
+    background-color: rgb(58, 118, 230);
+    color: white;
+  }
+
+  .header__options > h4:active {
+    box-shadow: 1px 1px black;
+  }
+
+@media only screen and (max-width: 600px){
+  h1 {
+    font-size: 1.7em;
+  }
+  h4 {
+    margin-top: -5px;
+  }
+}
+
+
+  

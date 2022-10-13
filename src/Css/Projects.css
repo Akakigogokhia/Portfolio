@@ -1,0 +1,149 @@
+.projects__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 2em;
+    margin: 5em;
+    font-size: 1em;
+}
+
+
+.project > img{
+    width: 49em;
+    height: 28em;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+.projects {
+    align-items: center;
+    margin-top: 100px;
+    font-size: 1.2em;
+}
+
+.project {
+    position: relative;
+}
+
+.button__1 {
+    margin-top: -37%;
+    position: absolute;
+    width: 30%;
+    height: 15%;
+    margin-bottom: 2px;
+    background-color: rgb(21, 19, 37);
+    font-size: large;
+    cursor: pointer;
+    border: 1px solid black;
+    display: inline-block;
+    border-radius: 4px;
+    color: #FFFFFF;
+    transition: all 0.5s;
+}
+
+#button__2 {
+    margin-top: -27%;
+    position: absolute;
+    width: 30%;
+    height: 15%;
+    font-size: large;
+    cursor: pointer;
+}
+
+.button__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projects__names {
+    margin-right: 8vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+
+.projects__names > div {
+    font-size: 1.5em;
+    font-weight: 400;
+    border-radius: 5px;
+    margin-top: 1vw;
+    border: 1px solid black;
+    padding: 7px;
+    cursor: pointer;
+    padding: 5px;
+    color: rgba(14, 59, 73, 0.788);
+    transition: 0.2s;
+    box-shadow: 3px 3px rgb(129, 115, 115);
+    background-color: white;
+    color: black;
+}
+
+#clicked__div {
+    background-color: rgb(21, 19, 37);
+    color: white;
+}
+
+.button__1 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button__1 span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button__1:hover span {
+    padding-right: 25px;
+  }
+  
+  .button__1:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+.projects__names > div:hover {
+    background-color: rgb(21, 19, 37);
+    color: white;
+}
+
+@media only screen and (max-width: 1300px) {
+    .projects__names {
+      flex-direction: row;
+      margin-right: 0;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+    }
+    .projects__names > div {
+        margin-right: 1vw;
+    }
+    
+  }
+
+  @media only screen and (max-width: 837px) {
+    .project > img {
+        width: 90vw;
+        height: 54vw;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .projects__names {
+        font-size: 0.8em;
+    }
+}
+
+    
+
+ 

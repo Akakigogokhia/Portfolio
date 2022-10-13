@@ -1,0 +1,50 @@
+.skills__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 7vw;
+}
+
+.skills__list > div {
+    text-align: center;
+    width: 7.5em;
+    border-radius: 1.5em;
+}
+
+.skills__list > div > img {
+    width: 100px;
+    height: 100px;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+}
+
+.skills__contaner {
+    display: flex;
+    justify-content: space-around;
+    color: black;
+    margin: 50px;
+}
+
+
+.skills__border {
+    background-color: rgb(30, 46, 65);
+    color: white;
+    transition: all 0.3s ease-in;
+}
+
+.skills {
+    margin-top: 5vh;
+    font-size: 1.2em;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .skills__list > div > img {
+        width: 50px;
+        height: 50px;
+    }
+}

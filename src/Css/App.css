@@ -1,0 +1,17 @@
+.app {
+    display: flex;
+    justify-content: center;
+    height: 90%;
+    position: relative;
+}
+
+.app__container {
+    width: 100%;
+    background-color: white;
+    z-index: 1;
+    font-family: Monospace;
+    caret-color: transparent;
+}
+
+
+

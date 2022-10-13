@@ -1,0 +1,54 @@
+.footer__socials {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.footer__container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+    font-size: 1.3em;
+}
+
+
+
+.footer__options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 7vw;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+.footer {
+    text-align: center;
+}
+
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: rgb(8, 40, 180);
+}
+
+h4:hover {
+    color: rgb(8, 40, 180);
+}
+
+
+@media only screen and (max-width: 500px) {
+    .footer__container {
+        font-size: 15px;
+    }
+}
